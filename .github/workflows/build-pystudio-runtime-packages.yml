@@ -134,7 +134,6 @@ jobs:
           ./scripts/run-docker.sh -d ./build-package.sh \
             -C \
             -a "${{ matrix.target_arch }}" \
-            --format debian \
             "${packages[@]}"
 
       - name: Build apt repository artifact
