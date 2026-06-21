@@ -1,2 +1,6 @@
-python
-python-pip
+libllvm
+ndk-sysroot
+make
+cmake
+ninja
+pkg-config
