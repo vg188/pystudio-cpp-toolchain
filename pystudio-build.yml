@@ -1,0 +1,19 @@
+profile: cpp
+defaultSource: primary
+availableSources:
+  - primary
+  - secondary
+  - tur
+architectures:
+  - aarch64
+  - arm
+  - i686
+  - x86_64
+releasePrefix: pystudio-cpp-toolchain
+packages:
+  - libllvm
+  - ndk-sysroot
+  - make
+  - cmake
+  - ninja
+  - pkg-config
